@@ -1,4 +1,9 @@
+$navbar-bg-color: #89DCFE;
+$bnt-1: #DFF8FF;
 *{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif
 }
+@import"components/__ul";
+@import"components/__button";
