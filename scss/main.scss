@@ -1,5 +1,8 @@
 $navbar-bg-color: #89DCFE;
 $bnt-1: #DFF8FF;
+$bnt-2: #47B6ED;
+$bg-header: #B6DED9;
+$text-color: #fff;
 *{
     margin: 0;
     padding: 0;
@@ -7,3 +10,4 @@ $bnt-1: #DFF8FF;
 }
 @import"components/__ul";
 @import"components/__button";
+@import"components/__header";

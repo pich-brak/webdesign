@@ -45,4 +45,45 @@ img {
 
 .bnt-1:hover {
   background-color: white;
+}
+
+.bnt-2 {
+  background-color: #47B6ED;
+}
+
+.container {
+  margin: 10px;
+}
+.container .header {
+  margin: 30px;
+  height: 200px;
+}
+.container h1 {
+  margin-left: 80px;
+  margin-top: 10px;
+}
+.container h6 {
+  margin-top: 40px;
+  margin-left: 80px;
+}
+.container .btn-2 {
+  margin-left: 80px;
+  background-color: #47B6ED;
+  padding: 5px;
+  border: none;
+  text-align: center;
+  margin-left: 120px;
+  color: #fff;
+  width: 120px;
+  border-radius: 20px;
+}
+.container .container-1 {
+  display: flex;
+  justify-content: space-between;
+  background-color: #B6DED9;
+}
+.container .picture {
+  width: 200px;
+  height: 200px;
+  margin-right: 80px;
 }/*# sourceMappingURL=main.css.map */
