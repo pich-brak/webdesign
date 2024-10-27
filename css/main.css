@@ -67,12 +67,12 @@ img {
   margin-left: 130px;
 }
 .container .btn-2 {
-  margin-left: 130px;
+  margin-left: 180px;
   background-color: #47B6ED;
   padding: 5px;
   border: none;
   text-align: center;
-  margin-left: 120px;
+  margin-left: 180px;
   color: #fff;
   width: 120px;
   border-radius: 20px;
@@ -127,12 +127,15 @@ img {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 10px;
+  width: 97%;
+  height: 300px;
 }
 .container-3 .card-2 {
   display: flex;
   background-color: #F9F9F9;
-  width: 97%;
-  height: 300px;
+}
+.container-3 .card-3 {
+  background-color: #F9F9F9;
 }
 .container-3 .fa-star {
   color: gold;
@@ -141,4 +144,9 @@ img {
   width: 160px;
   margin: 10px;
   height: 180px;
+}
+.container-3 .icon {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
 }/*# sourceMappingURL=main.css.map */

@@ -4,21 +4,35 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         gap: 10px;
+        width: 97%;
+        height: 300px;
     }
-.card-2{
-    display: flex;
-    background-color:#F9F9F9 ;
-    width: 97%;
-    height: 300px;
-   
-}
-.fa-star{
-    color: gold;
-}
-.picture-1{
-    width: 160px;
-    margin: 10px;
-    height: 180px;
-}
+    .card-2{
+        display: flex;
+        background-color:#F9F9F9 ;
+       
+    }
+    .card-3{
+        background-color:#F9F9F9 ;
+
+    }
+    .fa-star{
+        color: gold;
+    }
+    .picture-1{
+        width: 160px;
+        margin: 10px;
+        height: 180px;
+    }
+    .icon{
+        display: flex;
+        justify-content: center;
+        margin-top: 200px;
+    }
+
+
+
+
+
 
 }
