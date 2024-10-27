@@ -59,15 +59,15 @@ img {
   height: 200px;
 }
 .container h1 {
-  margin-left: 80px;
+  margin-left: 130px;
   margin-top: 10px;
 }
 .container h6 {
   margin-top: 40px;
-  margin-left: 80px;
+  margin-left: 130px;
 }
 .container .btn-2 {
-  margin-left: 80px;
+  margin-left: 130px;
   background-color: #47B6ED;
   padding: 5px;
   border: none;
@@ -84,6 +84,61 @@ img {
 }
 .container .picture {
   width: 200px;
-  height: 200px;
-  margin-right: 80px;
+  height: 240px;
+  margin-right: 130px;
+}
+
+.conaiter-2 {
+  text-align: center;
+  margin-top: 10px;
+  color: #000000;
+}
+.conaiter-2 .skin {
+  width: 200px;
+  height: 240px;
+  margin: 10px;
+}
+.conaiter-2 .card {
+  gap: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "picture picture picture";
+  gap: 10px;
+}
+.conaiter-2 .skincare {
+  background-color: #CDE4EF;
+  border-radius: 10px;
+  margin-top: 10px;
+  height: 400px;
+  width: 97%;
+}
+.conaiter-2 .skincare:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+.conaiter-2 p {
+  padding: 5px;
+}
+
+.container-3 {
+  margin: 10px;
+}
+.container-3 .card-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+.container-3 .card-2 {
+  display: flex;
+  background-color: #F9F9F9;
+  width: 97%;
+  height: 300px;
+}
+.container-3 .fa-star {
+  color: gold;
+}
+.container-3 .picture-1 {
+  width: 160px;
+  margin: 10px;
+  height: 180px;
 }/*# sourceMappingURL=main.css.map */
