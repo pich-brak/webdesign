@@ -5,6 +5,8 @@
     .header{
         margin: 30px;
         height: 200px;
+
+    
        
     }
     h1{
@@ -29,13 +31,24 @@
         border-radius: 20px;
     }
     .container-1{
+        margin-top: 20px;
         display: flex;
-       justify-content: space-between;
+        justify-content: space-between;
         background-color: $bg-header;
+
+        .png {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+        }
+       
     }
     .picture{
         width: 200px;
         height: 240px;   
         margin-right: 130px;
- }
+    }
+    
+
 }

@@ -175,4 +175,37 @@
   position: absolute;
   top: 830px;
   left: 990px;
-}/*# sourceMappingURL=main.css.map */
+}
+
+.btn {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+.card-main {
+  display: flex;
+  gap: 30px;
+  margin-top: 14px;
+}
+.card-main img {
+  width: 800px;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px;
+}
+.card-main .card-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  border-radius: 20px;
+  background-color: #D9D9D9;
+}
+.card-main .card-btn img {
+  width: 300px;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=home.css.map */

@@ -1,0 +1,25 @@
+.card-main{
+    display: flex;
+    gap: 30px;
+    margin-top: 14px;
+    img{
+        width: 800px;
+        height: 400px;
+        object-fit: cover;
+        border-radius: 20px;
+
+    }
+    .card-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 500px;
+        border-radius: 20px;
+        background-color: #D9D9D9;
+        img{
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+        }
+    }
+}
