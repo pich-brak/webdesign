@@ -1,22 +1,35 @@
 .container-3{
-    margin: 10px;
+    text-align: center;
     .card-1{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        gap: 10px;
+        
       
     }
     .box{
         background-color:#F9F9F9 ;
         margin: 10px;
-        width: 97%;
+        width: 90%;
         height: 300px;
+        border-radius: 20px;
        
     }
-    // .card-3{
-    //     background-color:#F9F9F9 ;
+    .bo{
+        display: flex;
+        justify-content: center;
+    }
+    .card-2{
+        display: flex;
+        justify-content: center;
+    }
+    .icon{
+        display: flex;
+        justify-content: center;
+    }
+    .card-3{
+        background-color:#F9F9F9 ;
 
-    // }
+    }
     .fa-star{
         color: gold;
     }
@@ -30,6 +43,9 @@
         top: 830px;
         left: 210px;
         
+    }
+    h3{
+        margin: 10px;
     }
 
     #icon-1{
@@ -58,6 +74,9 @@
         top: 830px;
         left: 990px;
 
+    }
+    h3{
+        color: #000000;
     }
 
 
