@@ -1,17 +1,16 @@
-.container-6{
+.container-3{
     text-align: center;
     .card-2{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        
+     
       
     }
-    .box-2{
+    .box{
         background-color:#F9F9F9 ;
         margin: 10px;
         width: 90%;
         height: 280px;
-        border-radius: 20px;
        
     }
     .bo{
@@ -21,13 +20,16 @@
     .card-3{
         display: flex;
         justify-content: center;
+        border-radius: 20px;
     }
     .icon{
         display: flex;
         justify-content: center;
     }
     .card-3{
+        
         background-color:#F9F9F9 ;
+        border-radius: 20px;
 
     }
     .fa-star{
