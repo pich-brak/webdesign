@@ -1,9 +1,10 @@
-.container-3{
+.container-8{
     text-align: center;
     .card-2{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-     
+         
+        
       
     }
     .box{
@@ -11,23 +12,18 @@
         margin: 10px;
         width: 90%;
         height: 280px;
+        border-radius: 20px;
        
     }
-    .bo{
-        display: flex;
-        justify-content: center;
-    }
-    .card-3{
-        display: flex;
-        justify-content: center;
-        border-radius: 20px;
-    }
+    // .bo{
+    //     display: flex;
+    //     justify-content: center;
+    // }
     .icon{
         display: flex;
         justify-content: center;
     }
     .card-3{
-        
         background-color:#F9F9F9 ;
         border-radius: 20px;
 
@@ -35,7 +31,7 @@
     .fa-star{
         color: gold;
     }
-    .picture-3{
+    .picture-1{
         width: 140px;
         margin: 10px;
         height: 160px;
