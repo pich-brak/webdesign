@@ -5,6 +5,7 @@ $bg-header: #B6DED9;
 $text-color: #fff;
 $color-text: #000000;
 $picture: #CDE4EF;
+$bg-card:#F9F9F9 ;
 
 *{
     margin: 0;
@@ -20,3 +21,4 @@ $picture: #CDE4EF;
 @import"components/__header-2";
 @import"components/__picture-2";
 @import"components/__footer";
+@import"mixins/__responesive";
