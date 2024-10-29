@@ -2,7 +2,13 @@
     display: flex;
     justify-content: space-between;
     background-color: $navbar-bg-color;
-    height: 40px;
+    height: 60px;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
     padding: 4px;
     .nav-1{
         display: flex;
@@ -29,12 +35,12 @@
         text-decoration: underline;
       
     }
-    .logo{
-        width: 40px;
-        height: 40px;
-        border-radius: 50px;
-    }
     
 }
-
+.logo{
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+    border-radius: 50px;
+}
 
