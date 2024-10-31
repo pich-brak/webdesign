@@ -1,17 +1,27 @@
 .container-3{
     margin: 10px;
+
     .card-1{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         gap: 10px;
+
       
     }
     .box{
         background-color:#F9F9F9 ;
-        margin: 10px;
+        margin: 5px;
         width: 97%;
         height: 300px;
+        transition: transform 0.6s;
+
        
+    }
+    .box:hover{
+        transform: translateY(-7px);
+        // transition: 0.1;
+        // box-shadow: 0 2px 2px gray;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     }
     // .card-3{
     //     background-color:#F9F9F9 ;
@@ -44,8 +54,16 @@
         border-radius: 5px;
         padding: 5px;
         border: none;
+        font-weight: bolder;
         width: 100px;
+        height: 30px;
         margin-top: 10px;
+        
+    }
+    .btn-3:hover{
+        
+        background-color: aquamarine;
+        
     }
     #icon-3{
         position: absolute;
@@ -59,7 +77,7 @@
         left: 990px;
 
     }
-
+    
 
 
 }

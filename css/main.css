@@ -8,11 +8,22 @@
   display: flex;
   justify-content: space-between;
   background-color: #89DCFE;
-  padding: 10px;
+  padding: 15px 5%;
+  height: 60px;
+  align-items: center;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  width: 90%;
+  position: fixed;
 }
 .nav .nav-1 {
   display: flex;
   list-style: none;
+}
+.nav .nav-1 a:hover {
+  color: #fff;
+  text-decoration: underline;
 }
 .nav .nav-2 {
   display: flex;
@@ -30,8 +41,8 @@
   text-decoration: underline;
 }
 .nav img {
-  width: 40px;
-  height: 40px;
+  width: 80px;
+  height: 80px;
   border-radius: 50px;
 }
 
@@ -39,15 +50,23 @@
   background-color: #DFF8FF;
   border: none;
   padding: 5px;
+  width: 70px;
+  height: 30px;
   border-radius: 5px;
 }
 
 .bnt-1:hover {
-  background-color: white;
+  color: #fff;
+  background-color: rgb(41, 141, 180);
 }
 
 .bnt-2 {
   background-color: #47B6ED;
+}
+
+.bnt-2:hover {
+  color: #fff;
+  background-color: rgb(41, 141, 180);
 }
 
 .container {
@@ -72,12 +91,14 @@
   border: none;
   text-align: center;
   margin-left: 180px;
+  margin-top: 10px;
   color: #fff;
   width: 120px;
+  height: 35px;
   border-radius: 20px;
 }
 .container .container-1 {
-  margin-top: 20px;
+  margin-top: 100px;
   display: flex;
   justify-content: space-between;
   background-color: #B6DED9;
@@ -136,9 +157,14 @@
 }
 .container-3 .box {
   background-color: #F9F9F9;
-  margin: 10px;
+  margin: 5px;
   width: 97%;
   height: 300px;
+  transition: transform 0.6s;
+}
+.container-3 .box:hover {
+  transform: translateY(-7px);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .container-3 .fa-star {
   color: gold;
@@ -163,8 +189,13 @@
   border-radius: 5px;
   padding: 5px;
   border: none;
+  font-weight: bolder;
   width: 100px;
+  height: 30px;
   margin-top: 10px;
+}
+.container-3 .btn-3:hover {
+  background-color: aquamarine;
 }
 .container-3 #icon-3 {
   position: absolute;
