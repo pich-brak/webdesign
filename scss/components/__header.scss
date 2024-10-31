@@ -2,6 +2,7 @@
 .container{
     
     margin: 10px;
+<<<<<<< HEAD
     .header{
         margin: 30px;
         height: 200px;
@@ -28,14 +29,47 @@
 
         border-radius: 20px;
     }
+=======
+>>>>>>> 0b36a4345861ce27b65b534c59a38f201c808091
     .container-1{
+        margin-top: 95px;
         display: flex;
-       justify-content: space-between;
+        justify-content: space-between;
         background-color: $bg-header;
-    }
+        .header{
+            margin-left: 10px;
+            margin-right: 10px;
+            height: 200px;
+            .btn-2{
+                margin-left: 180px;
+                background-color:$bnt-2 ;
+                padding: 5px;
+                border: none;
+                text-align: center;
+                margin-left: 180px;
+                color: $text-color;
+                width: 120px;
+             
+                border-radius: 20px;
+            }
+          
+            h1{
+                margin-left: 130px;
+                margin-top: 10px;
+                
+            }
+            h6{
+                margin-top: 40px;
+                margin-left: 130px;
+            }
+           
+        }
+    } 
     .picture{
         width: 200px;
         height: 240px;   
         margin-right: 130px;
- }
+    }
+    
+
 }
