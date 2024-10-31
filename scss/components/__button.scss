@@ -1,13 +1,16 @@
 .bnt-1{
     background-color: $bnt-1;
     border: none;
-    padding: 5px 15px; 
+    padding: 5px;
+    width: 70px;
+    height: 30px;
     border-radius: 5px;
     margin: 10px;
     
 }
 .bnt-1:hover{
-    background-color: white;
+    color: #fff;
+    background-color: rgb(41, 141, 180);
 }
 .bnt-2{
     background-color: $bnt-2;
