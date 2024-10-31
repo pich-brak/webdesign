@@ -4,49 +4,6 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.nav {
-  display: flex;
-  justify-content: space-between;
-  background-color: #89DCFE;
-  height: 60px;
-  align-items: center;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  left: 0;
-  z-index: 1000;
-  padding: 4px;
-}
-.nav .logo {
-  width: 60px;
-  height: 60px;
-  margin-left: 20px;
-  border-radius: 50px;
-}
-.nav .nav-1 {
-  display: flex;
-  list-style: none;
-}
-.nav .nav-1 ul {
-  display: flex;
-  list-style: none;
-}
-.nav .nav-1 ul a {
-  margin: 10px;
-  text-decoration: none;
-  align-items: center;
-  justify-content: center;
-  font-weight: bold;
-  display: flex;
-}
-.nav .nav-1 ul a:hover {
-  text-decoration: underline;
-}
-.nav .nav-2 {
-  display: flex;
-  list-style: none;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -124,36 +81,6 @@ ul li a.active {
   display: none;
 }
 
-@media screen and (max-width: 768px) {
-  nav {
-    border-bottom: 1px solid #455468;
-  }
-  ul {
-    position: absolute;
-    width: 100%;
-    height: calc(100vh - 71px);
-    background-color: #18283B;
-    left: 0;
-    top: 0;
-    text-align: center;
-    display: none;
-    margin-top: 71px;
-  }
-  ul li {
-    display: block;
-    padding: 10px 15px;
-  }
-  ul li a {
-    display: block;
-    padding: 10px 0;
-  }
-  #icon {
-    display: block;
-  }
-  #checkbox:checked ~ ul {
-    display: block;
-  }
-}
 .bnt-1 {
   background-color: #DFF8FF;
   border: none;
@@ -174,7 +101,7 @@ ul li a.active {
   margin: 10px;
 }
 .container .container-1 {
-  margin-top: 80px;
+  margin-top: 95px;
   display: flex;
   justify-content: space-between;
   background-color: #B6DED9;
@@ -674,5 +601,36 @@ ul li a.active {
   .container-8 .box:hover {
     transform: translateY(-2px);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  }
+  nav {
+    border-bottom: 1px solid #455468;
+  }
+  ul {
+    position: absolute;
+    width: 100%;
+    height: calc(100vh - 71px);
+    background-color: #18283B;
+    left: 0;
+    top: 0;
+    text-align: center;
+    display: none;
+    margin-top: 71px;
+  }
+  ul li {
+    display: block;
+    padding: 10px 15px;
+  }
+  ul li a {
+    display: block;
+    padding: 10px 0;
+  }
+  #icon {
+    display: block;
+  }
+  #checkbox:checked ~ ul {
+    display: block;
+  }
+  .nav-2 {
+    display: none;
   }
 }/*# sourceMappingURL=main.css.map */
