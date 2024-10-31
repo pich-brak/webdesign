@@ -1,0 +1,34 @@
+.first{
+    text-align: center;
+    margin-top: 10px;
+    color: $color-text;
+    .images{
+        width: 200px;
+        height: 240px;
+        margin: 10px;
+    }
+    .frist-1{
+        gap: 10px;
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-areas:'picture' ;
+
+    }
+    .two{
+        background-color: $picture;
+        border-radius: 0px;
+        margin-top: 10px;
+        height: 390px;
+        width: 100%;
+        
+    }
+    .two:hover{
+        transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+
+    }
+    p{
+        padding: 5px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+}

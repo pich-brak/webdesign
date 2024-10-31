@@ -169,23 +169,23 @@
         margin-right: 70px;
  }
 }
-.conaiter-2{
+.first{
     text-align: center;
     margin-top: 10px;
     color: $color-text;
-    .skin{
+    .images{
         width: 200px;
         height: 240px;
         margin: 10px;
     }
-    .card{
+    .frist-1{
         gap: 10px;
         display: grid;
         grid-template-columns: 1fr ;
         grid-template-areas:'picture' ;
 
     }
-    .skincare{
+    .two{
         background-color: $picture;
         border-radius: 0px;
         margin-top: 10px;
@@ -193,7 +193,7 @@
         width: 100%;
         
     }
-    .skincare:hover{
+    .two:hover{
         transform: translateY(-2px);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 
@@ -332,43 +332,37 @@
 
 
 }
-
+nav{
+    border-bottom: 1px solid #455468;
 }
-@media(max-width:480px){
-    nav{
-        border-bottom: 1px solid #455468;
-    }
-    ul{
-        position: absolute;
-        width: 100%;
-        height: calc(100vh - 71px);
-        background-color: #18283B;
-        left: 0;
-        top: 0;
-        text-align: center;
-        display: none;
-        margin-top: 71px;
-    }
-    ul li{
-        display: block;
-        padding: 10px 15px;
-    }
-    ul li a{
-        display: block;
-        padding: 10px 0; 
-    }
-    #icon{
-        display: block;
-    }
-    #checkbox:checked~ul{
-        display: block;
-    }
-    .nav-2{
-        display: none;
-    }
+ul{
+    position: absolute;
+    width: 100%;
+    height: calc(100vh - 71px);
+    background-color: #18283B;
+    left: 0;
+    top: 0;
+    text-align: center;
+    display: none;
+    margin-top: 71px;
+}
+ul li{
+    display: block;
+    padding: 10px 15px;
+}
+ul li a{
+    display: block;
+    padding: 10px 0; 
+}
+#icon{
+    display: block;
+}
+#checkbox:checked~ul{
+    display: block;
+}
+.nav-2{
+    display: none;
 }
 
 
-
-    
-    
+}
