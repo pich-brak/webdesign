@@ -1,0 +1,30 @@
+$navbar-bg-color: #89DCFE;
+$bnt-1: #DFF8FF;
+$bnt-2: #47B6ED;
+$bg-header: #B6DED9;
+$text-color: #fff;
+$color-text: #000000;
+$picture: #CDE4EF;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+@import"components/__ul";
+@import"components/__button";
+@import"components/__header";
+@import"components/__picture";
+@import"components/__card";
+@import"components/__container";
+@import"components/__contact-header";
+@import"components/__reach-us";
+@import"components/__map";
+@import"components/__get-in-touch";
+@import"mixins/__responsive";
