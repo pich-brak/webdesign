@@ -8,6 +8,8 @@
     
         height: 200px;
        
+    
+       
     }
     h1{
         margin-left: 130px;
@@ -25,19 +27,31 @@
         border: none;
         text-align: center;
         margin-left: 180px;
+        margin-top: 10px;
         color: $text-color;
         width: 120px;
-     
+        height: 35px;
         border-radius: 20px;
     }
     .container-1{
+        margin-top: 100px;
         display: flex;
-       justify-content: space-between;
+        justify-content: space-between;
         background-color: $bg-header;
+
+        .png {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+        }
+       
     }
     .picture{
         width: 200px;
         height: 240px;   
         margin-right: 130px;
- }
+    }
+    
+
 }

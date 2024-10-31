@@ -1,9 +1,11 @@
 .container-3{
-    text-align: center;
+    margin: 10px;
+
     .card-1{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        
+        gap: 10px;
+
       
     }
     // .box:hover{
@@ -13,26 +15,21 @@
     //  }
     .box{
         background-color:#F9F9F9 ;
-        margin: 10px;
-        width: 90%;
-        height: 280px;
-        border-radius: 20px;
+        margin: 5px;
+        width: 97%;
+        height: 300px;
+        transition: transform 0.6s;
+
        
     }
-    .bo{
-        display: flex;
-        justify-content: center;
+    .box:hover{
+        transform: translateY(-7px);
+        // transition: 0.1;
+        // box-shadow: 0 2px 2px gray;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     }
-    .card-2{
-        display: flex;
-        justify-content: center;
-    }
-    .icon{
-        display: flex;
-        justify-content: center;
-    }
-    .card-3{
-        background-color:#F9F9F9 ;
+    // .card-3{
+    //     background-color:#F9F9F9 ;
 
     }
     .fa-star{
@@ -65,9 +62,16 @@
         border-radius: 5px;
         padding: 5px;
         border: none;
+        font-weight: bolder;
         width: 100px;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        height: 30px;
         margin-top: 10px;
+        
+    }
+    .btn-3:hover{
+        
+        background-color: aquamarine;
+        
     }
     .btn-3:hover{
         transform: scale(1.05);
@@ -84,96 +88,6 @@
         left: 990px;
 
     }
-    h3{
-        color: #000000;
-    }
-    #icon-6{
-        position: absolute;
-        top: 230%;
-        left: 210px;
-    }
-    #icon-7{
-        position: absolute;
-        top: 230%;
-        left: 470px;
-    }
-    #icon-8{
-        position: absolute;
-        top: 230%;
-        left: 747px;
-    }
-    #icon-9{
-        position: absolute;
-        top: 230%;
-        left: 1010px;
-    }
-    #icon-10{
-        position: absolute;
-        top: 295%;
-        left: 210px;
-    }
-    #icon-11{
-        position: absolute;
-        top: 295%;
-        left: 470px;
-
-    }
-    #icon-12{
-        position: absolute;
-        top: 295%;
-        left: 747px;
-    }
-    #icon-13{
-        position: absolute;
-        top: 295%;
-        left: 1010px;
-    }
-    #icon-15{
-        position: absolute;
-        top: 355%;
-        left: 210px;
-    }
-    #icon-17{
-        position: absolute;
-        top: 355%;
-        left: 470px;
-
-    }
-    #icon-18{
-        position: absolute;
-        top: 355%;
-        left: 747px;
-    }
-    #icon-19{
-        position: absolute;
-        top: 355%;
-        left: 1010px;
-    }
-    #icon-20{
-        position: absolute;
-        top: 415%;
-        left: 210px;
-    }
-    #icon-21{
-        position: absolute;
-        top: 415%;
-        left: 470px;
-    }
-    #icon-22{
-        position: absolute;
-        top: 415%;
-        left: 747px;
-    }
-    #icon-23{
-        position: absolute;
-        top: 415%;
-        left: 1010px;
-    }
-    h4{
-        margin: 8px;
-    }
+    
 
 
-
-
-}

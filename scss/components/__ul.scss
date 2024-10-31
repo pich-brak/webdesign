@@ -2,11 +2,24 @@
     display: flex;
     justify-content: space-between;
     background-color: $navbar-bg-color;
-    height: 40px;
-    padding: 4px;
+    padding: 15px 5%;
+    height: 60px;
+    align-items: center;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 90%;
+    position: fixed;
+
     .nav-1{
+
         display: flex;
         list-style: none;
+        a:hover{
+            color: #fff;
+            text-decoration: underline;
+          
+        }
         
         
     }
@@ -29,12 +42,11 @@
         text-decoration: underline;
       
     }
-    .logo{
-        width: 40px;
-        height: 40px;
+    img{
+        width: 80px;
+        height: 80px;
         border-radius: 50px;
     }
-    
 }
 
 
