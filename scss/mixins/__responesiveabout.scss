@@ -169,40 +169,6 @@
         margin-right: 70px;
  }
 }
-.first{
-    text-align: center;
-    margin-top: 10px;
-    color: $color-text;
-    .images{
-        width: 200px;
-        height: 240px;
-        margin: 10px;
-    }
-    .frist-1{
-        gap: 10px;
-        display: grid;
-        grid-template-columns: 1fr ;
-        grid-template-areas:'picture' ;
-
-    }
-    .two{
-        background-color: $picture;
-        border-radius: 0px;
-        margin-top: 10px;
-        height: 390px;
-        width: 100%;
-        
-    }
-    .two:hover{
-        transform: translateY(-2px);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-
-    }
-    p{
-        padding: 5px;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
-}
 .container-3{
     text-align: center;
     .card-1{
@@ -362,6 +328,28 @@ ul li a{
 }
 .nav-2{
     display: none;
+}
+.skin-2{
+    width: 300px;
+    height: 300px;
+}
+.div-1{
+    display: none;
+    
+}
+.product{
+    display: grid;
+    grid-template-columns: 1fr ;
+    gap: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    .pruduct-1{
+        background-color: $picture;
+    }
+    .pruduct-2{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
 }
 
 
