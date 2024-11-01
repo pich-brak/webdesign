@@ -440,34 +440,32 @@ p {
     height: 200px;
   }
   .container h1 {
-    margin-left: 70px;
-    margin-top: 10px;
-    font-size: 20px;
+    font-size: 15px;
   }
   .container h6 {
-    margin-top: 40px;
+    margin-top: 20px;
     margin-left: 70px;
   }
   .container .btn-2 {
-    margin-left: 180px;
+    margin-left: 10px;
     background-color: #47B6ED;
-    padding: 5px;
     border: none;
     text-align: center;
-    margin-left: 70px;
+    margin-right: 10px;
     color: #fff;
-    width: 120px;
+    width: 70px;
+    font-size: 10px;
   }
   .container .container-1 {
-    margin-top: 80px;
+    margin-top: 100px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     background-color: #B6DED9;
   }
   .container .picture {
-    width: 100px;
+    width: 150px;
     height: 160px;
-    margin-right: 70px;
+    margin-top: 10px;
   }
   .container-3 {
     text-align: center;
@@ -480,17 +478,17 @@ p {
     background-color: #F9F9F9;
     margin: 10px;
     width: 96%;
-    height: 280px;
-    border-radius: 0px;
+    height: 400px;
+    border-radius: 8px;
   }
   .container-3 .card-1 .box .card-2 {
     display: flex;
     justify-content: center;
   }
   .container-3 .card-1 .box .card-2 .picture-1 {
-    width: 140px;
+    width: 250px;
     margin: 10px;
-    height: 160px;
+    height: 250px;
   }
   .container-3 .card-1 .box .box-2 .btn-3 {
     background-color: #89DCFE;
@@ -626,7 +624,7 @@ p {
   }
   .product .pruduct-2 {
     margin-top: 20px;
-    margin-left: 140px;
+    margin-left: 120px;
     margin-right: 30px;
     width: 200px;
     height: 200px;
@@ -641,7 +639,44 @@ p {
   }
   p {
     margin-right: 30px;
-    margin-left: 90px;
-    font-size: 17px;
+    margin-left: 120px;
+  }
+  .footer {
+    background-color: #7A806B;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+  }
+  .footer .footer-1 {
+    margin: 0px;
+  }
+  .footer .footer-2 {
+    display: none;
+  }
+  .footer .footer-3 {
+    margin: 0px;
+  }
+  .footer .img {
+    height: 30px;
+    width: 30px;
+    vertical-align: middle;
+    margin: 5px;
+  }
+  .footer .img-1 {
+    height: 16px;
+    width: 30px;
+    vertical-align: middle;
+    margin: 5px;
+  }
+  .footer .img-2 {
+    height: 12px;
+    width: 20px;
+    vertical-align: middle;
+    margin: 10px;
+  }
+  .footer .p {
+    margin-left: 40px;
+    margin-top: 5px;
   }
 }/*# sourceMappingURL=main.css.map */
