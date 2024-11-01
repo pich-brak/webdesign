@@ -4,11 +4,33 @@
     gap: 10px;
     margin-left: 10px;
     margin-right: 10px;
+   
+   
     .pruduct-1{
         background-color: $picture;
+        height: 390px;
+        border-radius: 10px;
     }
     .pruduct-2{
-        margin-left: 30px;
+        margin-top: 20px;
+        margin-left: 60px;
         margin-right: 30px;
+        width: 200px;
+        height: 200px;
+        margin-top: 40px;
+      
+        
     }
+
+}
+.h3{
+    text-align: center;
+}
+h3{
+    text-align: center;
+    margin: 10px;
+}
+p{
+    margin-right:30px;
+    margin-left: 30px;
 }
