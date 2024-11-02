@@ -3,10 +3,12 @@
     border: none;
     padding: 5px;
     border-radius: 5px;
+    margin: 5px;
     
 }
 .bnt-1:hover{
-    background-color: white;
+    background-color: rgb(41, 141, 180);
+    color: white;
 }
 .bnt-2{
     background-color: $bnt-2;
