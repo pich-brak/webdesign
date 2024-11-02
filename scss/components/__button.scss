@@ -1,20 +1,37 @@
 .bnt-1{
     background-color: $bnt-1;
     border: none;
-    padding: 5px;
+    padding: 10px;
     width: 70px;
     height: 30px;
     border-radius: 5px;
+<<<<<<< HEAD
+    margin: 5px;
+    
+}
+.bnt-1:hover{
+    background-color: rgb(41, 141, 180);
+    color: white;
+=======
     margin: 10px;
     
 }
 .bnt-1:hover{
     color: #fff;
+<<<<<<< HEAD
+    background-color:rgb(41, 141, 180);
+=======
     background-color: rgb(41, 141, 180);
+>>>>>>> cae70362e7dc7530b836edbdb087df5090d78864
+>>>>>>> dc6aab053a988e31445c9fdba8528d0c3e28d770
 }
 .bnt-2{
     background-color: $bnt-2;
     
+}
+.bnt-2:hover{
+    color: #fff;
+    background-color: rgb(41, 141, 180);
 }
 
 

@@ -3,26 +3,108 @@
     padding: 0;
     box-sizing: border-box;
 }
+<<<<<<< HEAD
+.logo{
+    .logo-1{
+        width: 60px;
+        height: 60px;
+        border-radius: 50px;
+    }
+}
+=======
+>>>>>>> cae70362e7dc7530b836edbdb087df5090d78864
 nav{
     display: flex;
     justify-content: space-between;
     padding: 15px 5%;
     align-items: center;
+<<<<<<< HEAD
+    background:$navbar-bg-color;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+.logo{
+    color: #fff;
+    font-size: 22px;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: #000;
+    padding: 8px 30px;
+    border-radius: 7px;
+    transition: all .3s ease;
+}
+ul li a:hover,
+ul li a.active{
+    color: #fff;
+    background: #0075FF;
+    text-decoration: underline;
+}
+#icon{
+    background-color: #0057FF;
+    padding: 5px 7px 3px 7px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#icon i{
+    color: #fff;
+    height: 28px;
+    font-size: 25px;
+}
+#icon:hover{
+    background: #fff;
+}
+#icon:hover i{
+    color: #0075FF;
+}
+#checkbox,
+#icon{
+    display: none;
+=======
     background: $navbar-bg-color;
     position: fixed;
+    height: 90px;
     z-index: 1000;
     width: 100%;
     top: 0;
     .logo-1{
-        width: 50px;
-        height: 50px;
+        width: 80px;
+        height: 80px;
         border-radius: 40px;
     }
 
+>>>>>>> cae70362e7dc7530b836edbdb087df5090d78864
 }
 .nav-2{
     display: flex;
     list-style: none;
+<<<<<<< HEAD
+    // .bnt-1{
+    //     border-radius: 5px;
+    //     width: 80px;
+    //     height: 30px;
+    //     border: none;
+    //     margin: 10px;
+    // }
+    // .bnt-1:hover{
+    //     background-color:  ;
+    // }
+=======
+<<<<<<< HEAD
+    
+   
+=======
+>>>>>>> cae70362e7dc7530b836edbdb087df5090d78864
+>>>>>>> dc6aab053a988e31445c9fdba8528d0c3e28d770
 }
 
 ul{
@@ -32,6 +114,7 @@ ul li{
     display: inline-block;
 }
 ul li a{
+    font-weight: bold;
     text-decoration: none;
     color: #000000;
     padding: 8px 30px;

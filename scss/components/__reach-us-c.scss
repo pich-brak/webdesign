@@ -1,0 +1,47 @@
+.reach-us-c {
+    background-color: #f6f6f6;
+    padding: 50px 0;
+    text-align: center;
+
+    h2 {
+        font-size: 28px;
+        color: #414141;
+        background-color: #54c0f7;
+    }
+
+    p {
+        color: #666;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .contact-cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 20px;
+    }
+
+    .contact-card {
+        background: #bfeaffb4;
+        padding: 35px;
+        width: 100%;
+        border-radius: 10px;
+
+        &:hover {
+            background-color: #54c0f7;
+        }
+
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+
+        h3 {
+            font-size: 20px;
+            color: #414141;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 16px;
+            color: #666;
+        }
+    }
+}
