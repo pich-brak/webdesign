@@ -1,52 +1,67 @@
-.nav{
+nav{
     display: flex;
     justify-content: space-between;
-    background-color: $navbar-bg-color;
     padding: 15px 5%;
-    height: 60px;
     align-items: center;
+    background: $navbar-bg-color;
+    position: fixed;
+    height: 60px;
     z-index: 1000;
+    width: 90%;
     top: 0;
     left: 0;
-    width: 90%;
-    position: fixed;
 
-    .nav-1{
-
-        display: flex;
-        list-style: none;
-        a:hover{
-            color: #fff;
-            text-decoration: underline;
-          
-        }
-        
-        
-    }
-    .nav-2{
-        display: flex;
-        list-style: none;
-
-    }
-    a{
-        margin: 10px;
-        text-decoration: none;
-        align-items: center;
-        justify-content: center;
-        font-weight: bold;
-        display: flex;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        color: #000000;
-    }
-    a:hover{
-        text-decoration: underline;
-      
-    }
-    img{
+    .logo-1{
         width: 80px;
         height: 80px;
-        border-radius: 50px;
+        border-radius: 40px;
     }
+
+}
+.nav-2{
+    display: flex;
+    list-style: none;
 }
 
+ul{
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #000000;
+    padding: 8px 30px;
+    border-radius: 7px;
+    transition: all .3s ease;
+}
+ul li a:hover,
+ul li a.active{
+    color: #fff;
+    text-decoration: underline;
+    background: #0075FF;
+}
+#icon{
+    background-color: #0057FF;
+    padding: 5px 7px 3px 7px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#icon i{
+    color: #fff;
+    height: 28px;
+    font-size: 25px;
+}
+#icon:hover{
+    background: #fff;
+}
+#icon:hover i{
+    color: #0075FF;
+}
+#checkbox,
+#icon{
+    display: none;
+}
 
