@@ -13,6 +13,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+<<<<<<< HEAD
 }
 
 nav {
@@ -100,6 +101,262 @@ ul li a.active {
 .contact-header .container h2 p {
   color: #000;
   margin-top: 50px;
+=======
+}
+
+.logo .logo-1 {
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 5%;
+  align-items: center;
+  background: #89DCFE;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.logo {
+  color: #fff;
+  font-size: 22px;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #000;
+  padding: 8px 30px;
+  border-radius: 7px;
+  transition: all 0.3s ease;
+}
+
+ul li a:hover,
+ul li a.active {
+  color: #fff;
+  background: #0075FF;
+  text-decoration: underline;
+}
+
+#icon {
+  background-color: #0057FF;
+  padding: 5px 7px 3px 7px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#icon i {
+  color: #fff;
+  height: 28px;
+  font-size: 25px;
+}
+
+#icon:hover {
+  background: #fff;
+}
+
+#icon:hover i {
+  color: #0075FF;
+}
+
+#checkbox,
+#icon {
+  display: none;
+}
+
+.nav-2 {
+  display: flex;
+  list-style: none;
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    border-bottom: 1px solid #455468;
+  }
+  ul {
+    position: absolute;
+    width: 100%;
+    height: calc(100vh - 71px);
+    background-color: #18283B;
+    left: 0;
+    top: 0;
+    text-align: center;
+    display: none;
+    margin-top: 71px;
+  }
+  ul li {
+    display: block;
+    padding: 10px 15px;
+  }
+  ul li a {
+    display: block;
+    padding: 10px 0;
+  }
+  #icon {
+    display: block;
+  }
+  #checkbox:checked ~ ul {
+    display: block;
+  }
+}
+.bnt-1 {
+  background-color: #DFF8FF;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.bnt-1:hover {
+  background-color: white;
+}
+
+.bnt-2 {
+  background-color: #47B6ED;
+}
+
+.container {
+  margin: 10px;
+}
+.container .container-1 {
+  margin-top: 110px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #B6DED9;
+}
+.container .container-1 .header {
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 200px;
+}
+.container .container-1 .header .btn-2 {
+  margin-left: 180px;
+  background-color: #47B6ED;
+  padding: 5px;
+  border: none;
+  text-align: center;
+  margin-left: 180px;
+  color: #fff;
+  width: 120px;
+  border-radius: 20px;
+}
+.container .container-1 .header h1 {
+  margin-left: 130px;
+  margin-top: 10px;
+}
+.container .container-1 .header h6 {
+  margin-top: 40px;
+  margin-left: 130px;
+}
+.container .picture {
+  width: 200px;
+  height: 240px;
+  margin-right: 130px;
+}
+
+.product {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.product .pruduct-1 {
+  background-color: #CDE4EF;
+  height: 390px;
+  border-radius: 10px;
+}
+.product .pruduct-2 {
+  margin-top: 20px;
+  margin-left: 60px;
+  margin-right: 30px;
+  width: 200px;
+  height: 200px;
+  margin-top: 40px;
+}
+
+.h3 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  margin: 10px;
+}
+
+p {
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.container-3 {
+  text-align: center;
+}
+.container-3 .card-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.container-3 .card-1 .box {
+  background-color: #F9F9F9;
+  margin: 10px;
+  width: 91.8%;
+  height: 280px;
+  border-radius: 20px;
+}
+.container-3 .icon {
+  display: flex;
+  justify-content: center;
+}
+.container-3 .card-3 {
+  background-color: #F9F9F9;
+  border-radius: 20px;
+}
+.container-3 .fa-star {
+  color: gold;
+}
+.container-3 .picture-1 {
+  width: 140px;
+  margin: 10px;
+  height: 160px;
+}
+.container-3 h3 {
+  margin: 10px;
+}
+.container-3 h4 {
+  margin: 5px;
+}
+.container-3 .btn-3 {
+  background-color: #89DCFE;
+  border-radius: 5px;
+  padding: 5px;
+  border: none;
+  width: 100px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-top: 10px;
+}
+.container-3 .btn-3:hover {
+  transform: scale(1.05);
+}
+.container-3 h3 {
+  color: #000000;
+}
+.container-3 .box:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+>>>>>>> dc6aab053a988e31445c9fdba8528d0c3e28d770
 }
 
 .container {
