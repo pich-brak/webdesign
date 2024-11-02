@@ -2,15 +2,28 @@
     background-color: $bnt-1;
     border: none;
     padding: 5px;
+    width: 70px;
+    height: 30px;
     border-radius: 5px;
+<<<<<<< HEAD
     margin: 5px;
     
 }
 .bnt-1:hover{
     background-color: rgb(41, 141, 180);
     color: white;
+=======
+    margin: 10px;
+    
+}
+.bnt-1:hover{
+    color: #fff;
+    background-color: rgb(41, 141, 180);
+>>>>>>> cae70362e7dc7530b836edbdb087df5090d78864
 }
 .bnt-2{
     background-color: $bnt-2;
     
 }
+
+
