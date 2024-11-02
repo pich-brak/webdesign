@@ -1,0 +1,263 @@
+@media (max-width:1200px) {
+  .reach-us-c {
+    background-color: #f6f6f6;
+    padding: 50px 0;
+    text-align: center;
+
+    h2 {
+      font-size: 28px;
+      color: #414141;
+      background-color: #54c0f7;
+    }
+
+    p {
+      color: #666;
+      margin-top: 10px;
+      margin-bottom: 30px;
+    }
+
+    .contact-cards {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      gap: 20px;
+    }
+
+    .contact-card {
+      background: #bfeaffb4;
+      padding: 35px;
+      width: 100%;
+      border-radius: 10px;
+
+      &:hover {
+        background-color: #54c0f7;
+      }
+
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+      rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+      rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+
+      h3 {
+        font-size: 20px;
+        color: #414141;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 16px;
+        color: #666;
+      }
+    }
+  }
+}
+
+@media (max-width:768px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 5%;
+    align-items: center;
+    background: $navbar-bg-color;
+    position: fixed;
+    height: 85px;
+    z-index: 1000;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+    .logo-1 {
+      width: 60px;
+      height: 60px;
+      border-radius: 40px;
+    }
+  }
+
+  ul {
+    position: absolute;
+    width: 100%;
+    height: calc(50vh - 71px);
+    background-color: #18283B;
+    left: 0;
+    top: 0;
+    text-align: center;
+    display: none;
+    margin-top: 71px;
+  }
+
+  ul li {
+    display: block;
+    padding: 10px 15px;
+  }
+
+  ul li a {
+    display: block;
+    padding: 10px 0;
+  }
+
+  #icon {
+    display: block;
+  }
+
+  #checkbox:checked~ul {
+    display: block;
+  }
+
+  .nav-2 {
+    display: none;
+  }
+
+  .reach-us-c {
+    background-color: #f6f6f6;
+    padding: 50px 0;
+    text-align: center;
+
+    h2 {
+      font-size: 28px;
+      color: #414141;
+      background-color: #54c0f7;
+    }
+
+    p {
+      color: #666;
+      margin-top: 10px;
+      margin-bottom: 30px;
+    }
+
+    .contact-cards {
+      display: grid;
+      grid-template-columns: 2fr 2fr;
+      gap: 20px;
+    }
+
+    .contact-card {
+      background: #bfeaffb4;
+      padding: 35px;
+      width: 100%;
+      border-radius: 10px;
+
+      &:hover {
+        background-color: #54c0f7;
+      }
+
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+      rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+      rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+
+      h3 {
+        font-size: 20px;
+        color: #414141;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 16px;
+        color: #666;
+      }
+    }
+  }
+}
+
+@media (max-width:480px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 5%;
+    align-items: center;
+    background: $navbar-bg-color;
+    position: fixed;
+    height: 85px;
+    z-index: 1000;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+    .logo-1 {
+      width: 60px;
+      height: 60px;
+      border-radius: 40px;
+    }
+  }
+
+  ul {
+    position: absolute;
+    width: 100%;
+    height: calc(50vh - 71px);
+    background-color: #18283B;
+    left: 0;
+    top: 0;
+    text-align: center;
+    display: none;
+    margin-top: 71px;
+  }
+
+  ul li {
+    display: block;
+    padding: 10px 15px;
+  }
+
+  ul li a {
+    display: block;
+    padding: 10px 0;
+  }
+
+  #icon {
+    display: block;
+  }
+
+  #checkbox:checked~ul {
+    display: block;
+  }
+
+  .nav-2 {
+    display: none;
+  }
+
+  .reach-us-c {
+    background-color: #f6f6f6;
+    padding: 50px 0;
+    text-align: center;
+
+    h2 {
+      font-size: 28px;
+      color: #414141;
+      background-color: #54c0f7;
+    }
+
+    p {
+      color: #666;
+      margin-top: 10px;
+      margin-bottom: 30px;
+    }
+
+    .contact-cards {
+      display: grid;
+      grid-template-columns: 2fr;
+      gap: 20px;
+    }
+
+    .contact-card {
+      background: #bfeaffb4;
+      padding: 35px;
+      width: 100%;
+      border-radius: 10px;
+
+      &:hover {
+        background-color: #54c0f7;
+      }
+
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+      rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+      rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+
+      h3 {
+        font-size: 20px;
+        color: #414141;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 16px;
+        color: #666;
+      }
+    }
+  }
+}

@@ -10,12 +10,13 @@ nav{
     align-items: center;
     background: $navbar-bg-color;
     position: fixed;
+    height: 90px;
     z-index: 1000;
     width: 100%;
     top: 0;
     .logo-1{
-        width: 50px;
-        height: 50px;
+        width: 80px;
+        height: 80px;
         border-radius: 40px;
     }
 
@@ -23,6 +24,16 @@ nav{
 .nav-2{
     display: flex;
     list-style: none;
+    // .bnt-1{
+    //     border-radius: 5px;
+    //     width: 80px;
+    //     height: 30px;
+    //     border: none;
+    //     margin: 10px;
+    // }
+    // .bnt-1:hover{
+    //     background-color:  ;
+    // }
 }
 
 ul{
@@ -32,6 +43,7 @@ ul li{
     display: inline-block;
 }
 ul li a{
+    font-weight: bold;
     text-decoration: none;
     color: #000000;
     padding: 8px 30px;
