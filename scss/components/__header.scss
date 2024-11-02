@@ -2,51 +2,40 @@
 .container{
     
     margin: 10px;
-    .header{
-        margin-left: 10px;
-        margin-right: 10px;
-    
-        height: 200px;
-       
-    
-       
-    }
-    h1{
-        margin-left: 130px;
-        margin-top: 10px;
-        
-    }
-    h6{
-        margin-top: 40px;
-        margin-left: 130px;
-    }
-    .btn-2{
-        margin-left: 180px;
-        background-color:$bnt-2 ;
-        padding: 5px;
-        border: none;
-        text-align: center;
-        margin-left: 180px;
-        margin-top: 10px;
-        color: $text-color;
-        width: 120px;
-        height: 35px;
-        border-radius: 20px;
-    }
     .container-1{
-        margin-top: 100px;
+        margin-top: 95px;
         display: flex;
         justify-content: space-between;
         background-color: $bg-header;
-
-        .png {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-top: 10px;
+        .header{
+            margin-left: 10px;
+            margin-right: 10px;
+            height: 200px;
+            .btn-2{
+                margin-left: 180px;
+                background-color:$bnt-2 ;
+                padding: 5px;
+                border: none;
+                text-align: center;
+                margin-left: 180px;
+                color: $text-color;
+                width: 120px;
+             
+                border-radius: 20px;
+            }
+          
+            h1{
+                margin-left: 130px;
+                margin-top: 10px;
+                
+            }
+            h6{
+                margin-top: 40px;
+                margin-left: 130px;
+            }
+           
         }
-       
-    }
+    } 
     .picture{
         width: 200px;
         height: 240px;   

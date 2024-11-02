@@ -2,9 +2,11 @@ $navbar-bg-color: #89DCFE;
 $bnt-1: #DFF8FF;
 $bnt-2: #47B6ED;
 $bg-header: #B6DED9;
-$text-color: #fff;
+$text-color: #fff ;
 $color-text: #000000;
 $picture: #CDE4EF;
+$bg-card:#F9F9F9 ;
+
 *{
     margin: 0;
     padding: 0;
@@ -13,5 +15,8 @@ $picture: #CDE4EF;
 @import"components/__ul";
 @import"components/__button";
 @import"components/__header";
-@import"components/__picture";
 @import"components/__card";
+@import"components/__card-2";
+@import"components/__footer";
+@import"components/__picture";
+@import"mixins/__responesiveabout"
