@@ -9,12 +9,6 @@ body {
   color: #333;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 nav {
   display: flex;
   justify-content: space-between;
@@ -22,13 +16,15 @@ nav {
   align-items: center;
   background: #89DCFE;
   position: fixed;
+  height: 60px;
   z-index: 1000;
-  width: 100%;
+  width: 90%;
   top: 0;
+  left: 0;
 }
 nav .logo-1 {
-  width: 50px;
-  height: 50px;
+  width: 80px;
+  height: 80px;
   border-radius: 40px;
 }
 
@@ -46,6 +42,7 @@ ul li {
 }
 
 ul li a {
+  font-weight: bold;
   text-decoration: none;
   color: #000000;
   padding: 8px 30px;
@@ -462,7 +459,8 @@ ul li a.active {
 .bnt-1 {
   background-color: #DFF8FF;
   border: none;
-  padding: 5px;
+  padding: 10px;
+  margin: 10px;
   width: 70px;
   height: 30px;
   border-radius: 5px;
@@ -476,4 +474,9 @@ ul li a.active {
 
 .bnt-2 {
   background-color: #47B6ED;
+}
+
+.bnt-2:hover {
+  color: #fff;
+  background-color: rgb(41, 141, 180);
 }/*# sourceMappingURL=contact.css.map */

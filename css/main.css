@@ -4,12 +4,6 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 nav {
   display: flex;
   justify-content: space-between;
@@ -17,13 +11,15 @@ nav {
   align-items: center;
   background: #89DCFE;
   position: fixed;
+  height: 60px;
   z-index: 1000;
-  width: 100%;
+  width: 90%;
   top: 0;
+  left: 0;
 }
 nav .logo-1 {
-  width: 50px;
-  height: 50px;
+  width: 80px;
+  height: 80px;
   border-radius: 40px;
 }
 
@@ -41,6 +37,7 @@ ul li {
 }
 
 ul li a {
+  font-weight: bold;
   text-decoration: none;
   color: #000000;
   padding: 8px 30px;
@@ -84,7 +81,8 @@ ul li a.active {
 .bnt-1 {
   background-color: #DFF8FF;
   border: none;
-  padding: 5px;
+  padding: 10px;
+  margin: 10px;
   width: 70px;
   height: 30px;
   border-radius: 5px;
@@ -98,6 +96,11 @@ ul li a.active {
 
 .bnt-2 {
   background-color: #47B6ED;
+}
+
+.bnt-2:hover {
+  color: #fff;
+  background-color: rgb(41, 141, 180);
 }
 
 .container {
@@ -153,6 +156,26 @@ ul li a.active {
   height: 280px;
   border-radius: 20px;
 }
+.container-3 .box:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+.container-3 .box {
+  background-color: #F9F9F9;
+  margin: 10px;
+  width: 90%;
+  height: 280px;
+  border-radius: 20px;
+  transition: transform 0.7s;
+}
+.container-3 .bo {
+  display: flex;
+  justify-content: center;
+}
+.container-3 .card-2 {
+  display: flex;
+  justify-content: center;
+}
 .container-3 .icon {
   display: flex;
   justify-content: center;
@@ -186,6 +209,102 @@ ul li a.active {
 }
 .container-3 .btn-3:hover {
   transform: scale(1.05);
+}
+.container-3 #icon-3 {
+  position: absolute;
+  top: 830px;
+  left: 730px;
+}
+.container-3 #icon-5 {
+  position: absolute;
+  top: 830px;
+  left: 990px;
+}
+.container-3 h3 {
+  color: #000000;
+}
+.container-3 #icon-6 {
+  position: absolute;
+  top: 230%;
+  left: 210px;
+}
+.container-3 #icon-7 {
+  position: absolute;
+  top: 230%;
+  left: 470px;
+}
+.container-3 #icon-8 {
+  position: absolute;
+  top: 230%;
+  left: 747px;
+}
+.container-3 #icon-9 {
+  position: absolute;
+  top: 230%;
+  left: 1010px;
+}
+.container-3 #icon-10 {
+  position: absolute;
+  top: 295%;
+  left: 210px;
+}
+.container-3 #icon-11 {
+  position: absolute;
+  top: 295%;
+  left: 470px;
+}
+.container-3 #icon-12 {
+  position: absolute;
+  top: 295%;
+  left: 747px;
+}
+.container-3 #icon-13 {
+  position: absolute;
+  top: 295%;
+  left: 1010px;
+}
+.container-3 #icon-15 {
+  position: absolute;
+  top: 355%;
+  left: 210px;
+}
+.container-3 #icon-17 {
+  position: absolute;
+  top: 355%;
+  left: 470px;
+}
+.container-3 #icon-18 {
+  position: absolute;
+  top: 355%;
+  left: 747px;
+}
+.container-3 #icon-19 {
+  position: absolute;
+  top: 355%;
+  left: 1010px;
+}
+.container-3 #icon-20 {
+  position: absolute;
+  top: 415%;
+  left: 210px;
+}
+.container-3 #icon-21 {
+  position: absolute;
+  top: 415%;
+  left: 470px;
+}
+.container-3 #icon-22 {
+  position: absolute;
+  top: 415%;
+  left: 747px;
+}
+.container-3 #icon-23 {
+  position: absolute;
+  top: 415%;
+  left: 1010px;
+}
+.container-3 h4 {
+  margin: 8px;
 }
 .container-3 h3 {
   color: #000000;
