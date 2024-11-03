@@ -617,8 +617,8 @@ p {
     background-color: #F9F9F9;
     margin: 10px;
     width: 96%;
-    height: 280px;
-    border-radius: 0px;
+    height: 400px;
+    border-radius: 8px;
   }
   .container-8 .icon {
     display: flex;
@@ -742,6 +742,8 @@ p {
   }
   .footer .footer-3 {
     margin: 0px;
+    border-left: 2px solid black;
+    height: 100px;
   }
   .footer .img {
     height: 30px;
